@@ -15,6 +15,7 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
@@ -74,6 +75,9 @@ public class MagicBox extends JPanel implements Runnable, MouseListener {
 	@Override
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
+		
+		JOptionPane.showMessageDialog(null, "This should play some sounds.");
+		
 		
 	}
 
